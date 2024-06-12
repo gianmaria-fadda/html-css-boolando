@@ -62,7 +62,6 @@ a,
 .fa-bag-shopping,
 a,
 .credits,
-.social-text,
 .fa-square-twitter,
 .fa-facebook,
 .fa-instagram,
@@ -130,7 +129,9 @@ a,
     font-size: 2cap;
 }
 
-.product-card .discount-tag, .sostenibility-tag {
+.product-card .discount-tag, 
+.sostenibility-tag1, 
+.sostenibility-tag2 {
     color: white;
     display: inline-block;
     position: absolute;
@@ -143,8 +144,12 @@ a,
     left: 0;
 }
 
-.product-card .sostenibility-tag {
+.product-card .sostenibility-tag1 {
     left: 13%;
+}
+
+.product-card .sostenibility-tag2 {
+    left: 0;
 }
 
 .brand-name, .escorted-price, .full-price {
@@ -185,6 +190,11 @@ a,
 
 .container-footer {
     background-color: #1A1A1A;
+    padding: 1%;
+}
+
+.srl, .social-text {
+    padding-bottom: 2%;
 }
 
 .footer-bar {
@@ -196,10 +206,12 @@ a,
 }
 
 .social-text {
-    margin-right: 20px;
+    margin-right: 6px;
+    font-size: 1cap;
 }
 
 .link{
-    display: flex;
+    display: block;
     text-align: right;
+    font-size: 2cap;
 }
