@@ -46,22 +46,17 @@ a {
 */
 
 .container-header {
-    margin: auto;
     background-color: #FF6600;
 }
 
 .navigation-bar {
-    padding: 0 303px;
     height: 50px;
     display: flex;
+    justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
     text-align: center;
     
-}
-
-.my-col-1-3-header {
-    width: calc(100%/3);
 }
 
 .fa-user,
@@ -105,7 +100,7 @@ a {
     color: white;
     display: inline-block;
     position: absolute;
-    bottom: 10%;
+    bottom: 16%;
     padding: 1% 2%;
     font-size: 1cap;
 }
@@ -116,6 +111,27 @@ a {
 
 .product-card .sostenibility-tag {
     left: 13%;
+}
+
+.brand-name, .escorted-price, .full-price {
+    font-size: small;
+}
+
+.brand-name, .full-price {
+    color: black;
+    opacity: 0.88;
+}
+
+.description-outfit, .escorted-price {
+    font-weight: bold;
+}
+
+.escorted-price {
+    color: red;
+}
+
+.full-price {
+    text-decoration: line-through;
 }
 
 /*
