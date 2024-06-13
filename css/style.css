@@ -179,7 +179,7 @@ a,
 
 .product-card .second-img {
     position: absolute;
-    bottom: 9.6%;
+    top: 0;
     left: 0;
     display: none;
 }
