@@ -77,6 +77,11 @@ a,
 
 .container-header {
     background-color: #FF6600;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    top: 0;
+    left: 0;
 }
 
 .navigation-bar {
